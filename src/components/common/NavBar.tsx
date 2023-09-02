@@ -16,9 +16,9 @@ export default function Nav() {
       const scrolled = window.scrollY > 0;
 
       if (scrolled) {
-        navbar.classList.add("bg-gray-200");
+        navbar.classList.add("bg-gray-300");
       } else {
-        navbar.classList.remove("bg-gray-200");
+        navbar.classList.remove("bg-gray-300");
       }
     };
 
