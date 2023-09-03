@@ -47,7 +47,8 @@ const programs: ProgramProps[] = [
 
 const Programs: React.FC = () => {
   return (
-    <div className="mx-auto mb-10 space-y-4">
+    <div>
+      <div className="mx-auto mb-10 space-y-4">
       <p className="text-xs text-purple-800 text-center">PRICING</p>
       <h1 className="text-4xl text-center font-bold">
         Reasonable & Flexible{' '}
@@ -63,6 +64,10 @@ const Programs: React.FC = () => {
         ))}
       </div>
     </div>
+    <hr className='border border-gray-300 my-10'/>
+
+    </div>
+    
   );
 };
 

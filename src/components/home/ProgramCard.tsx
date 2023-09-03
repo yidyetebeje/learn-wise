@@ -27,7 +27,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({ program }) => {
         <button
           className="w-36 h-12 text-white font-bold rounded-full bg-purple-600 hover:bg-purple-800 hover:border-700 transition duration-300 hover:border-purple-800 border-none hover:border-2 hover:shadow-lg"
         >
-          Buy Now
+          Start Now
         </button>
       </div>
     </div>

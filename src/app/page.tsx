@@ -5,6 +5,7 @@ import Hero from '@/components/home/Hero'
 import Programs from '@/components/home/Programs'
 import Features from '@/components/home/Features'
 import FAQs from '@/components/home/FAQs'
+import Testimonials from '@/components/home/Testimonials '
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
 
       <Hero />
       <Features />
+      
       <Programs />
+      <Testimonials />
       <FAQs />
       <Footer />
 

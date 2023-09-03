@@ -16,9 +16,9 @@ export default function Nav() {
       const scrolled = window.scrollY > 0;
 
       if (scrolled) {
-        navbar.classList.add("bg-gray-300");
+        navbar.classList.add("bg-gray-100");
       } else {
-        navbar.classList.remove("bg-gray-300");
+        navbar.classList.remove("bg-gray-100");
       }
     };
 
@@ -118,7 +118,7 @@ export default function Nav() {
                 href=""
                 className="block py-2 pl-3 pr-4 lg:bg-transparent  lg:p-0 text-[#3C3C3C] text-base font-semibold font-montserrat border-transparent hover:text-purple-800 border-b-2 hover:border-purple-800 "
               >
-                Testimoials 
+                Testimonials  
               </Link>
             </li>
             <li>

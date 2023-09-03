@@ -38,7 +38,7 @@ const Hero = () => {
         />
       </div>
     </div>
-    <hr className="border border-1 border-purple-100 px-28 mb-10" />
+    <hr className="border border-1 border-purple-100 px-28 my-14" />
     </div>
   );
 };
